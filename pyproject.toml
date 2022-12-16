@@ -12,4 +12,4 @@ dependencies = [
 ]
 
 [project.scripts]
-til = "tilmanager:tilmanager.cli"
+til = "tilmanager:cli"
