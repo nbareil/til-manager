@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tilmanager"
+version = "0.0.1"
+dependencies = [
+    "awesome-slugify",
+    "click",
+    "jinja2",
+]
+
+[project.scripts]
+til = "tilmanager:tilmanager.cli"
